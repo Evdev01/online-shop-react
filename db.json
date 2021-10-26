@@ -1,0 +1,12 @@
+{
+  "registration": [
+    {
+      "id": 1,
+      "email": "email@test.ru",
+      "name": "testName",
+      "surname": "surnameTest",
+      "patronymic": "patronymicTest",
+      "phone": "+7(904)281-31-31"
+    }
+  ]
+}
