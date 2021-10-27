@@ -1,0 +1,75 @@
+.popup__wrapper {
+  background: rgba(64, 64, 64, .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popup {
+  z-index: 10;
+  position: fixed;
+  top: 15%;
+  width: 32rem;
+  background: #ffffff;
+  box-shadow: 0 0 17px 0 #e7e7e7;
+  padding: 16px;
+
+  &__header, &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      height: 19rem;
+      width: 19rem;
+      margin: 1.25rem 0;
+    }
+  }
+}
+
+.submit_btn {
+  padding: 8px;
+  color: #ffffff;
+  background: #26ae68;
+}
+
+.close_modal {
+  padding: 8px;
+  color: #ffffff;
+  background: red;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.material-icons:hover,
+.submit_btn {
+  cursor: pointer;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: #2a7754;
+}
+
+.count {
+  margin: 1rem 0;
+  color: #d17581;
+}
+
+.card__item__description {
+  margin: 1rem 0 1.5rem 0;
+}
