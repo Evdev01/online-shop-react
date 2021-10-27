@@ -1,0 +1,27 @@
+
+.wrapper {
+  width: 100vw;
+  background-color: #282828;
+}
+
+
+.header__top {
+  background-color: #282828;
+  padding: .8rem 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    & p {
+      font-size: 1.2rem;
+      color: #999999;
+
+      &:hover {
+        color: #ffffff;
+        cursor: pointer;
+        transition: color .15s linear;
+      }
+    }
+  }
+}

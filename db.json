@@ -1,12 +1,79 @@
 {
-  "registration": [
+  "cards": [
     {
-      "id": 1,
-      "email": "email@test.ru",
-      "name": "testName",
-      "surname": "surnameTest",
-      "patronymic": "patronymicTest",
-      "phone": "+7(904)281-31-31"
+      "id" : 1,
+      "image": "https://i5.stat01.com/2/3836/138358550/afacdb/noutbuk-apple-macbook-pro-13-displej-retina-s-tehnologiej-true-tone-mid-2020-intel-core-i5-1400mhz-13-3-2560x1600-8gb-256gb-ssd-dvd-net-intel-iris-plus-graphics-645-wi-fi-bluetooth-macos.jpg",
+      "model": "Apple MacBook Pro 13 (2020)",
+      "gallery": [
+        {
+          "name": "Photo first",
+          "img": "https://i5.stat01.com/2/3836/138358550/afacdb/noutbuk-apple-macbook-pro-13-displej-retina-s-tehnologiej-true-tone-mid-2020-intel-core-i5-1400mhz-13-3-2560x1600-8gb-256gb-ssd-dvd-net-intel-iris-plus-graphics-645-wi-fi-bluetooth-macos.jpg"
+        },
+        {
+          "name": "Photo second",
+          "img": "https://i4.stat01.com/2/3836/138358551/afacdb/noutbuk-apple-macbook-pro-13-displej-retina-s-tehnologiej-true-tone-mid-2020-intel-core-i5-1400mhz-13-3-2560x1600-8gb-256gb-ssd-dvd-net-intel-iris-plus-graphics-645-wi-fi-bluetooth-macos.jpg"
+        },
+        {
+          "name": "Photo third",
+          "img": "https://i5.stat01.com/2/3836/138358552/afacdb/noutbuk-apple-macbook-pro-13-displej-retina-s-tehnologiej-true-tone-mid-2020-intel-core-i5-1400mhz-13-3-2560x1600-8gb-256gb-ssd-dvd-net-intel-iris-plus-graphics-645-wi-fi-bluetooth-macos.jpg"
+        }
+      ],
+      "stockCount": "10",
+      "stock": "true",
+      "description": "Intel Core i5 1400MHz/13.3\"/2560x1600/8GB/256GB",
+      "price": 105390,
+      "article": "T1",
+      "quantity": "1"
+    },
+    {
+      "id" : 2,
+      "image": "https://i4.stat01.com/2/4225/142249620/afacdb/screenshot239-jpg.jpg",
+      "model": "Apple MacBook Pro 13 Late (2020)",
+      "gallery": [
+        {
+          "name": "Photo first",
+          "img": "https://i4.stat01.com/2/4225/142249620/afacdb/screenshot239-jpg.jpg"
+        },
+        {
+          "name": "Photo second",
+          "img": "https://i4.stat01.com/2/4225/142249619/afacdb/screenshot240-jpg.jpg"
+        },
+        {
+          "name": "Photo third",
+          "img": "https://i5.stat01.com/2/4225/142249618/afacdb/screenshot241-jpg.jpg"
+        }
+      ],
+      "stockCount": "10",
+      "stock": "true",
+      "description": "M1/13\"/2560x1600/8GB/256GB",
+      "price": 114900,
+      "article": "T2",
+      "quantity": "1"
+    },
+    {
+      "id" : 3,
+      "image": "https://i4.stat01.com/2/4225/142249620/afacdb/screenshot239-jpg.jpg",
+      "model": "Apple MacBook Pro 13 Late 2020",
+      "gallery": [
+        {
+          "name": "Photo first",
+          "img": "https://i5.stat01.com/2/4226/142250136/afacdb/screenshot239-jpg.jpg"
+        },
+        {
+          "name": "Photo second",
+          "img": "https://i5.stat01.com/2/4226/142250135/afacdb/screenshot240-jpg.jpg"
+        },
+        {
+          "name": "Photo third",
+          "img": "https://i4.stat01.com/2/4226/142250134/afacdb/screenshot241-jpg.jpg"
+        }
+      ],
+      "stockCount": "10",
+      "stock": "false",
+      "description": "M1/13\"/2560x1600/8GB/512GB",
+      "price": 132900,
+      "article": "T4",
+      "quantity": "1"
     }
   ]
 }

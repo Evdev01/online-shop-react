@@ -1,0 +1,14 @@
+.header {
+  padding: 1.5rem 0;
+  background: #fff;
+  box-shadow: 0 0 8px 0 #e0e0e0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  & p {
+    color: #111111;
+  }
+}

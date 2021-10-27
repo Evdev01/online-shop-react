@@ -1,11 +1,13 @@
 import React from 'react'
+import './App.scss'
+import Content from "./components/Content/Content"
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <>
+            <Content/>
+        </>
+    )
 }
 
-export default App;
+export default App
