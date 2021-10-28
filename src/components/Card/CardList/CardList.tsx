@@ -9,7 +9,7 @@ import PopUpCard from "../../../popup/PopUpCard"
 
 const CardList: FC = () => {
 
-    const { cards } = useTypedSelector(state => state.cards)
+    const { cards }: any = useTypedSelector(state => state.cards)
     const dispatch = useDispatch()
     const [currentCard, setCurrentCard] = useState({})
     const [showPupUp, setShowPupUp] = useState(false)
@@ -34,7 +34,7 @@ const CardList: FC = () => {
         <div className="card__list">
             <div className="container">
                 <div className="card__list__wrapper">
-                    { cards.map(card => <CardItem showPupUpInfo={ showPupUpInfo } key={ card.id } card={ card }/>) }
+                    { cards.map((card: any) => <CardItem showPupUpInfo={ showPupUpInfo } key={ card.id } card={ card }/>) }
                 </div>
                 {
                     showPupUp

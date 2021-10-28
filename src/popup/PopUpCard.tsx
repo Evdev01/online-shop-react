@@ -1,5 +1,8 @@
-import React, { FC, useEffect } from 'react'
+import React, { FC } from 'react'
 import './PupUpCard.scss'
+import { useDispatch } from "react-redux"
+import { ICard } from "../models/ICard"
+import { addCardInBasket } from "../store/reducers/card/action-creators"
 
 interface PopUpCardProps {
     currentCard: any
@@ -9,9 +12,11 @@ interface PopUpCardProps {
 
 const PopUpCard: FC<PopUpCardProps> = ({ currentCard, closePopup }) => {
 
-    useEffect(() => {
-        console.log(currentCard)
-    }, [])
+    const dispatch = useDispatch()
+
+    const addCardBasket = (card: ICard) => {
+        dispatch(addCardInBasket(card))
+    }
 
     return (
         <div className="popup__wrapper">
@@ -31,7 +36,7 @@ const PopUpCard: FC<PopUpCardProps> = ({ currentCard, closePopup }) => {
                 </div>
                 <div className="popup__footer">
                     <button className="close_modal" onClick={ closePopup }>Close</button>
-                <button className="submit_btn">Add to card</button>
+                <button className="submit_btn" onClick={() => addCardBasket(currentCard)}>Add to card</button>
                 </div>
             </div>
         </div>
