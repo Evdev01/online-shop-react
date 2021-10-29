@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import './Basket.scss'
-import { NavLink } from "react-router-dom"
 import { useTypedSelector } from "../../hooks/useTypedSelector"
+import BasketCardItem from "./BasketCardItem/BasketCardItem"
 
 const Basket: FC = () => {
 
@@ -9,9 +9,8 @@ const Basket: FC = () => {
 
     return (
         <div>
-            Basket here
-            <NavLink to={'/'}>Go to the main page</NavLink>
-            {basketCards.map(item => <div key={item.id}>{ item.model } - {}</div>)}
+            {/*<NavLink to={'/'}>Go to the main page</NavLink>*/}
+            {basketCards.map(card => <BasketCardItem card={card}/>)}
         </div>
     )
 }

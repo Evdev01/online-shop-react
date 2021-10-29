@@ -1,0 +1,36 @@
+.basket__wrapper {
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+.basket__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 0 8px 0 #e0e0e0;
+
+  & img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+.basket__item-info {
+  text-align: left;
+  width: 18rem;
+}
+
+.basket__item-quantity {
+  text-align: center;
+}
+
+.quantity__count {
+  margin: 0 .4rem;
+}
+
+.quantity__btn {
+  cursor: pointer;
+}
