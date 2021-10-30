@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "id" : 1,
+      "id": 1,
       "image": "https://i5.stat01.com/2/3836/138358550/afacdb/noutbuk-apple-macbook-pro-13-displej-retina-s-tehnologiej-true-tone-mid-2020-intel-core-i5-1400mhz-13-3-2560x1600-8gb-256gb-ssd-dvd-net-intel-iris-plus-graphics-645-wi-fi-bluetooth-macos.jpg",
       "model": "Apple MacBook Pro 13 (2020)",
       "gallery": [
@@ -23,10 +23,10 @@
       "description": "Intel Core i5 1400MHz/13.3\"/2560x1600/8GB/256GB",
       "price": 105390,
       "article": "T1",
-      "quantity": "1"
+      "quantity": 1
     },
     {
-      "id" : 2,
+      "id": 2,
       "image": "https://i4.stat01.com/2/4225/142249620/afacdb/screenshot239-jpg.jpg",
       "model": "Apple MacBook Pro 13 Late (2020)",
       "gallery": [
@@ -48,10 +48,10 @@
       "description": "M1/13\"/2560x1600/8GB/256GB",
       "price": 114900,
       "article": "T2",
-      "quantity": "1"
+      "quantity": 1
     },
     {
-      "id" : 3,
+      "id": 3,
       "image": "https://i4.stat01.com/2/4225/142249620/afacdb/screenshot239-jpg.jpg",
       "model": "Apple MacBook Pro 13 Late 2020",
       "gallery": [
@@ -73,7 +73,8 @@
       "description": "M1/13\"/2560x1600/8GB/512GB",
       "price": 132900,
       "article": "T4",
-      "quantity": "1"
+      "quantity": 1
     }
-  ]
+  ],
+  "basket": []
 }

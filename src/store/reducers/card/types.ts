@@ -8,7 +8,8 @@ export interface CardState {
 
 export enum CardActionEnum {
     GET_CARDS = "GET_CARDS",
-    ADD_CARD_IN_BASKET = "ADD_CARD_IN_BASKET"
+    GET_CARDS_BASKET = "GET_CARDS_BASKET",
+    DELETE_CARDS_BASKET = "DELETE_CARDS_BASKET",
 }
 
 export interface SetCardAction {
@@ -16,10 +17,15 @@ export interface SetCardAction {
     payload: any[];
 }
 
-export interface AddCardInBasketAction {
-    type: CardActionEnum.ADD_CARD_IN_BASKET;
+export interface GetCardInBasketAction {
+    type: CardActionEnum.GET_CARDS_BASKET;
+    payload: any[];
+}
+
+export interface DeleteCardInBasketAction {
+    type: CardActionEnum.DELETE_CARDS_BASKET;
     payload: any[];
 }
 
 export type CardAction =
-    SetCardAction | AddCardInBasketAction
+    SetCardAction | GetCardInBasketAction | DeleteCardInBasketAction

@@ -24,4 +24,22 @@
       }
     }
   }
+
+  &__country_wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    & img {
+      margin-right: .6rem;
+      width: 1rem;
+      height: 1rem;
+    }
+
+    & .arrow {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
+

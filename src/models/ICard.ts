@@ -13,5 +13,5 @@ export interface ICard {
     description: string
     price: number
     article: string
-    quantity: string
+    quantity: number
 }

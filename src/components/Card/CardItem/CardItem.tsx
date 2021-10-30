@@ -39,4 +39,4 @@ const CardItem: FC<CardItemProps> = ({card, showPupUpInfo}) => {
     )
 }
 
-export default CardItem
+export default React.memo(CardItem)

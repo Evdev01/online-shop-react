@@ -43,4 +43,4 @@ const PopUpCard: FC<PopUpCardProps> = ({ currentCard, closePopup }) => {
     )
 }
 
-export default PopUpCard
+export default React.memo(PopUpCard)

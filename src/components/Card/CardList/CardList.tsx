@@ -22,7 +22,7 @@ const CardList: FC = () => {
     const showPupUpInfo = useCallback((card: ICard) => {
         setCurrentCard(card)
         setShowPupUp(!showPupUp)
-    }, [currentCard])
+    }, [])
 
     const closePopup = () => {
         setShowPupUp(!showPupUp)

@@ -1,12 +1,21 @@
-import React from 'react'
-import {NavLink} from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 import './Header.scss'
 import { useTypedSelector } from "../../hooks/useTypedSelector"
+import { useDispatch } from "react-redux"
+import { getCardsBasket } from "../../store/reducers/card/action-creators"
 
 
 const Header = () => {
 
+    const dispatch = useDispatch()
     const { basketCards } = useTypedSelector(state => state.cards)
+
+
+    useEffect(() => {
+        dispatch(getCardsBasket())
+    }, [])
+
 
     return (
         <div>
